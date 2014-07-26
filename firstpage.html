@@ -1,0 +1,10 @@
+
+<input type="range" ng-change="f(user)" ng-model="user.diam">
+
+<input type="range" ng-change="getData(page, times)" ng-model="times">
+<input type="text" ng-change="getData(page, times)" ng-model="page">
+
+{{data}}
+  	{{user.style}}
+  	<div ng-repeat="i in phones " class="border" ng-style="style(user)">{{i.age}}</div>
+	<button ng-click="red()">PUSHME</button>
